@@ -1,2 +1,3 @@
-# calculator
-week13 task2
+CodePen Home
+3 Column Preview Card (Frontend Mentor Project)
+
