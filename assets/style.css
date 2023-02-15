@@ -86,7 +86,6 @@ body {
 .hello__title {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     font-size: 60px;
-    
     margin: 0px 0px 38px 0px;
 }
 
@@ -103,11 +102,60 @@ body {
     margin: 0;
 }
 
-.hello__img {
+/* .hello__img {
     display: block;
     width: 50vw;
     border-radius: 10px;
     background: url('./ooooo.jpg') center / cover no-repeat;
+} */
+
+.hello__image {
+    flex: 0 0 50%;
+    /* padding: 0px 0px 0px 38px; */
+}
+
+.hello__image img {
+    max-width: 100%;
+}
+
+.title {
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.what {
+    padding: 50px 0px;
+}
+.container {
+}
+.what__row {
+    display: flex;
+    /* gap: 30px; */
+}
+.what___image {
+    flex: 0 0 430px;
+}
+.what___image img {
+    max-width: 100%;
+}
+
+.what__body {
+    flex: 1 1 auto;
+    padding: 0px 0px 0px 38px;
+}
+.what__title {
+    margin: 0px 0px 25px 0px;
+}
+
+.what__text {
+}
+
+.what__text p {
+    margin: 0px 0px 25px 0px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
 }
 .footer {
     background-color: #f5f5f5;
